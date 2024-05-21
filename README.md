@@ -13,5 +13,5 @@ One interesting result of this testing is that the order that models that are ru
             else:
                 futures[executor.submit(query_openai, model, user_input)] = model
 
-So a [randomized test] (https://github.com/wjleece/gpt-llama-index-speed-test/blob/main/randomized-speed-test.py) was also created to counteract these effects.
+So a [randomized test](https://github.com/wjleece/gpt-llama-index-speed-test/blob/main/randomized-speed-test.py) was also created to counteract these effects.
 
