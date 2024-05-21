@@ -20,9 +20,6 @@ with open(api_key_file, "r") as file:
 # Set the environment variable
 os.environ["OPENAI_API_KEY"] = api_key
 
-
-temperature = 0  # Set to 0 to minimize variability of responses
-
 temperature = 0  # Set to 0 to minimize variability of responses
 
 def query_openai(model, user_input):
